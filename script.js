@@ -9,9 +9,9 @@ let beenImpaled = "Oh, look at that. I've been impaled.";
 // 2b.
 console.log(beenImpaled.slice(18, 36));
 // 3a.
-let dotDotDot = "..."
+let dotDotDot = "...";
 // 3b.
-let skullBones = `I don't have a skull${dotDotDot}or bones.`
+let skullBones = `I don't have a skull${dotDotDot}or bones.`;
 // 4.
 console.log(Math.PI);
 // 5.
@@ -26,14 +26,19 @@ console.log(randomNum);
 // BONUS 
 
 // 6.
-console.log("LET IT GO! ".repeat(2));
+console.log(" Let it go!".toUpperCase().repeat(2));
 // 7a.
 let reindeers = "Reindeers are better than people.";
 // 7b.
-reindeers = reindeers.split(" ").join("_");
-console.log(reindeers);
+// reindeers = reindeers.split(" ").join("_");
+console.log(reindeers.split(" ").join("_"));
 // 8.
 let sqrof2 = Math.sqrt(2);
 console.log(sqrof2);
 // 9a.
 // I HAVE NO CLUE HOW TO DO THIS!!!!
+
+
+// BELOW IS HOW I WAS TAUGHT IN REVIEW
+let newRandomNumber = Math.floor(Math.random() * (23-7+1)+7);
+console.log(newRandomNumber);
